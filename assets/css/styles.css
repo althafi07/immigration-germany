@@ -172,3 +172,16 @@ footer {
 #btnTop:hover {
     background-color: #555;
 }
+
+/* Main container styling */
+.container {
+    max-width: 1200px; /* Adjust this value based on your preference */
+    margin: 0 auto; /* This will center the container */
+    padding: 0 20px; /* This adds some space on the sides for smaller screens */
+}
+
+/* Optional: Add some space at the top and bottom for breathing room */
+main {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
