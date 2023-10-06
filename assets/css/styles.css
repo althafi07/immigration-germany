@@ -74,3 +74,23 @@ footer {
         padding: 5px;
     }
 }
+
+/* Hover effect for links */
+a:hover {
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+/* Collapsible FAQ */
+.faq-question {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s;
+}
